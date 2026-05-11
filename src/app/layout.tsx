@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.rivanoz.com"),
+  metadataBase: new URL("https://www.rivanoz.eu"),
   title: {
     default: "RivaNoz — Miel Erkexin VIP y Crema Super Viga | Salud Masculina Discreta España",
     template: "%s | RivaNoz",
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://www.rivanoz.com",
+    canonical: "https://www.rivanoz.eu",
   },
   authors: [{ name: "RivaNoz" }],
   category: "health",
@@ -83,10 +83,10 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://www.rivanoz.com/#organization",
+      "@id": "https://www.rivanoz.eu/#organization",
       name: "RivaNoz",
-      url: "https://www.rivanoz.com",
-      logo: "https://www.rivanoz.com/images/erkexin.png",
+      url: "https://www.rivanoz.eu",
+      logo: "https://www.rivanoz.eu/images/erkexin.png",
       contactPoint: {
         "@type": "ContactPoint",
         telephone: "+34632656435",
@@ -101,17 +101,17 @@ const jsonLd = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://www.rivanoz.com/#website",
-      url: "https://www.rivanoz.com",
+      "@id": "https://www.rivanoz.eu/#website",
+      url: "https://www.rivanoz.eu",
       name: "RivaNoz",
-      publisher: { "@id": "https://www.rivanoz.com/#organization" },
+      publisher: { "@id": "https://www.rivanoz.eu/#organization" },
     },
     {
       "@type": "Product",
       name: "Miel Erkexin VIP",
       description:
         "Complemento herbal natural para mejorar la erección, potencia sexual y vitalidad masculina. Ginseng siberiano, jalea real y propóleo.",
-      image: "https://www.rivanoz.com/images/erkexin.png",
+      image: "https://www.rivanoz.eu/images/erkexin.png",
       brand: { "@type": "Brand", name: "RivaNoz" },
       offers: {
         "@type": "Offer",
@@ -119,7 +119,7 @@ const jsonLd = {
         price: "48",
         priceValidUntil: "2026-12-31",
         availability: "https://schema.org/InStock",
-        seller: { "@id": "https://www.rivanoz.com/#organization" },
+        seller: { "@id": "https://www.rivanoz.eu/#organization" },
       },
       aggregateRating: {
         "@type": "AggregateRating",
@@ -133,7 +133,7 @@ const jsonLd = {
       name: "Crema Super Viga 150000",
       description:
         "Crema retardante de aplicación tópica para controlar la eyaculación precoz. Efecto activo 30-60 minutos. Formato discreto 15ml.",
-      image: "https://www.rivanoz.com/images/superviga.png",
+      image: "https://www.rivanoz.eu/images/superviga.png",
       brand: { "@type": "Brand", name: "RivaNoz" },
       offers: {
         "@type": "Offer",
@@ -141,7 +141,7 @@ const jsonLd = {
         price: "25",
         priceValidUntil: "2026-12-31",
         availability: "https://schema.org/InStock",
-        seller: { "@id": "https://www.rivanoz.com/#organization" },
+        seller: { "@id": "https://www.rivanoz.eu/#organization" },
       },
       aggregateRating: {
         "@type": "AggregateRating",
