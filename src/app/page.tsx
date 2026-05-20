@@ -168,6 +168,9 @@ export default function HomePage() {
         {/* ── Precios ──────────────────────────────────────────── */}
         <Pricing />
 
+        {/* ── Formulario de pedido ─────────────────────────────── */}
+        <OrderForm />
+
         {/* ── Beneficios ───────────────────────────────────────── */}
         <Benefits
           title="Lo que más valoran quienes lo prueban."
@@ -304,9 +307,6 @@ export default function HomePage() {
           subheadline="Escríbenos por WhatsApp. Atención privada, discreta y personalizada."
           ctaText="QUIERO INFORMACIÓN PRIVADA"
         />
-
-        {/* ── Formulario de pedido ─────────────────────────────── */}
-        <OrderForm />
 
       </main>
       <Footer />
