@@ -191,6 +191,7 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${inter.variable} h-full`}>
       <head>
+        <meta name="facebook-domain-verification" content="x9qiand3lv2nubl2ml9a0zm76djr2n" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
